@@ -45,9 +45,9 @@ namespace ConsoleApp1
                             sw = new StreamWriter(filepath, true);
                         else
                             sw = new StreamWriter(@"D:\Items.txt");
-                        sw.Write(productname + ":");
-                        sw.Write(productquantity + ":");
-                        sw.Write(productbrand);
+                        sw.WriteLine(productname + "");
+                        sw.WriteLine(productquantity + "");
+                        sw.WriteLine(productbrand);
                         sw.Close();
 
                         //sw.Write(string.Format("{0}", name));

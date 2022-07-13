@@ -26,7 +26,7 @@ namespace ConsoleApp1
                 DisplayProductDetails(product);
             }
         }
-        public void DeleteProduct(Product product)
+        public void DeleteProduct(Product product) 
         {
             productitem.Remove(product);
         }
